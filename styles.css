@@ -6,7 +6,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin: 5% 5% 1% 5%;
   color: #FEF2BF;
 }
 
@@ -14,7 +14,6 @@ body {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
@@ -29,6 +28,33 @@ body {
 .game-over {
   background-color: red;
   opacity: 0.8;
+}
+
+.start {
+  margin: 10px 10px 20px 10px;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  border: 5px solid black;
+  background-color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: top;
+}
+.hint {
+  margin: 10px 10px 20px 10px;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  border: 5px solid black;
+  background-color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: top;
 }
 
 .red {
