@@ -84,6 +84,10 @@ function checkAnswer(currentLevel){ //Check the answer given by player.
 
 function resetGame(){ // Called when checkAnswer fails. Allows user to restart game.
     console.log("GameOver");
+    $("body").addClass("game-over");
+    setTimeout(function(){
+      $("body").removeClass("game-over");
+    },200);
     level = 0;
     gamePattern = [];
     $("h1").text("GameOver.");
